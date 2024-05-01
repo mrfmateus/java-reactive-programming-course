@@ -4,15 +4,14 @@ import com.rp.courseutil.Util;
 import com.rp.sec03.helper.NameProducer;
 import reactor.core.publisher.Flux;
 
-
-public class Lec02FluxCreateRefactoring {
+public class Lec08FluxPush {
 
   public static void main(String[] args) {
 
     NameProducer nameProducer = new NameProducer();
 
-    // create() is thread safe
-    Flux.create(nameProducer)
+    // unlike create(), push() is not thread safe
+    Flux.push(nameProducer)
             .subscribe(Util.subscriber());
 
     Runnable runnable = nameProducer::produce;

@@ -1,0 +1,10 @@
+Line 1 content from File03.txt
+Line 2 content from File03.txt
+Line 3 content from File03.txt
+Line 4 content from File03.txt
+Line 5 content from File03.txt
+Line 6 content from File03.txt
+Line 7 content from File03.txt
+Line 8 content from File03.txt
+Line 9 content from File03.txt
+Line 10 content from File03.txt
